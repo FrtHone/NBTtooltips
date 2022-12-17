@@ -16,8 +16,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.ArrayList;
 
-import org.lwjgl.glfw.GLFW;
-
 @Mixin(ItemStack.class)
 public abstract class mision_thi_TooltipChanger {
 

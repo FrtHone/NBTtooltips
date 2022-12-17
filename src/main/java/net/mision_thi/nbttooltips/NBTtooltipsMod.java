@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 public class NBTtooltipsMod implements ModInitializer {
 	public static final String MOD_ID = "NBTtooltips";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	public static final KeyBinding KEYBIND = KeyBindingHelper.registerKeyBinding(new KeyBinding("nbttooltips.keybind", GLFW.GLFW_KEY_LEFT_SHIFT, KeyBinding.INVENTORY_CATEGORY));
+	public static final KeyBinding KEYBIND = KeyBindingHelper.registerKeyBinding(new KeyBinding("nbttooltips.keybind", GLFW.GLFW_KEY_RIGHT_ALT, "category.nbttooltips"));
 
 	@Override
 	public void onInitialize() {
